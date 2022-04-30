@@ -1,0 +1,67 @@
+body{
+    background-color: hsla(180, 25%, 76%, 0.24);
+    font-family: "Open Sans", sans-serif;
+
+    
+}
+
+
+
+.cabecera{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-image: url("/public/img/fondo7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-height: 600px;
+    margin-top: -20px;
+
+    display: flex;/*trabajar con flex box */
+    flex-direction:column;/*definir eje principal -- row o column */
+    flex-wrap: wrap; /*respetar el tamaño de los elementos por linea*/
+    justify-content:space-around;/* alineacion del eje principal*/
+    align-items: center;/* alineacion del eje secundario*/
+    text-align: center;
+}
+
+.cuadroMain{
+    display: flex;/*trabajar con flex box */
+    flex-direction:column;/*definir eje principal -- row o column */
+    flex-wrap: wrap; /*respetar el tamaño de los elementos por linea*/
+    justify-content:space-around;/* alineacion del eje principal*/
+    align-items: center;/* alineacion del eje secundario*/
+    text-align: center;
+}
+
+.cuadroTotales{
+    display: flex;/*trabajar con flex box */
+    flex-direction:row;/*definir eje principal -- row o column */
+    flex-wrap: wrap; /*respetar el tamaño de los elementos por linea*/
+    justify-content:space-around;/* alineacion del eje principal*/
+    align-items: center;/* alineacion del eje secundario*/
+    text-align: center;
+    margin:20px;
+
+}
+
+.cuadroUltimo{
+
+text-align: center;
+width: 80%;
+}
+
+.Cuadro{
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: black;
+    border:1px solid;   
+}
+.cuadroCabecera{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
